@@ -1,0 +1,95 @@
+/* blog.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #111;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+#blog {
+    padding: 50px 20px;
+}
+
+#blog h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-item {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.blog-item:hover {
+    transform: scale(1.05);
+}
+
+.blog-item h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.blog-item p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+.special-report {
+    grid-column: span 2;
+    background-color: #333;
+}
+
+footer {
+    padding: 20px;
+    background-color: #111;
+    color: #aaa;
+}
+
+footer p {
+    margin: 0;
+}
